@@ -1,0 +1,7 @@
+@media (max-width:320px) {
+  .place__text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

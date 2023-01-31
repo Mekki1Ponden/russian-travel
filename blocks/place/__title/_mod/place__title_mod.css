@@ -1,0 +1,5 @@
+@media (min-width:739px) and (max-width:950px) {
+  .place__title_mod{
+    max-width: 320px;
+  }
+}

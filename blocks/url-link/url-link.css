@@ -1,0 +1,19 @@
+.url-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration-line: underline;
+  color: #ffffff;
+  margin: 0;
+}
+
+@media (max-width: 738px) {
+  .url-link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    max-height: 22px;
+  }
+}

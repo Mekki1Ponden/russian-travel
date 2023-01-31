@@ -1,0 +1,30 @@
+.description {
+  margin: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+}
+
+.description:last-child {
+  padding-top: 25px;
+}
+
+@media (max-width: 950px) {
+  .description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 163%;
+  }
+}
+
+@media (max-width: 738px) {
+  .description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    max-width: 288px;
+  }
+}

@@ -1,0 +1,15 @@
+@media (min-width: 738px) {
+  .place__links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: end;
+    gap:11px;
+  }
+}
+
+@media (max-width:320px) {
+  .place__links{
+    margin-left: 16px;
+  }
+}
