@@ -20,6 +20,7 @@
 @import url(../blocks/intro/__list-text/intro__list-text.css);
 @import url(../blocks/intro/__list-text-span/intro__list-text-span.css);
 @import url(../blocks/photo/photo.css);
+@import url(../blocks/photo/__cell/photo__cell.css);
 @import url(../blocks/photo/__item/photo__item.css);
 @import url(../blocks/places/places.css);
 @import url(../blocks/place/place.css);

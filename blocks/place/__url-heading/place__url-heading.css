@@ -11,18 +11,12 @@
 
 @media (max-width: 768px) {
   .place__url-heading {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
     line-height: 12px;
   }
 }
 
 @media (max-width: 320px) {
   .place__url-heading {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
     line-height: 12px;
     margin: 0;
     max-height: 12px;

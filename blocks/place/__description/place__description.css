@@ -15,7 +15,6 @@
 
 @media (max-width: 738px) {
   .place__description {
-    font-style: normal;
     font-size: 16px;
     line-height: 26px;
     max-width: 288px;
