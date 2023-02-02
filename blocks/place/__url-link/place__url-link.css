@@ -1,4 +1,4 @@
-.url-link {
+.place__url-link {
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -9,7 +9,7 @@
 }
 
 @media (max-width: 738px) {
-  .url-link {
+  .place__url-link {
     font-style: normal;
     font-weight: 400;
     font-size: 18px;

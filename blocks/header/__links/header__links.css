@@ -1,15 +1,7 @@
 .header__links{
   display: flex;
   flex-direction: row;
-  margin: 0 auto;
-  padding-right: 18px;
-  padding-top: 46px;
-
-}
-
-@media (max-width:767px) {
-  .header__links{
-    padding-top: 30px;
-    padding-right: 16px;
-  }
+  align-items: flex-end;
+  gap: 18px;
+  margin: 0;
 }

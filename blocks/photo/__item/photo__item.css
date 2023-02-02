@@ -1,23 +1,24 @@
 .photo__item{
   max-width: 284px;
   max-height: 213px;
+  object-fit:cover;
 }
 
-@media (min-width:769px) and (max-width: 1210px){
+@media (max-width: 1279px){
   .photo__item{
     max-width: 300px;
     max-height: 225px;
   }
 }
 
-@media (min-width: 321px) and (max-width: 768px){
+@media (max-width: 1023px){
   .photo__item{
     max-width: 352px;
     max-height: 264px;
   }
 }
 
-@media (max-width:320px) {
+@media (max-width:767px) {
   .photo__item{
     max-width: 288px;
     max-height: 216px;

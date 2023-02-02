@@ -1,15 +1,16 @@
-.url-heading {
+.place__url-heading {
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 20px;
   letter-spacing: 2px;
   color: #aaaaaa;
+  text-transform: uppercase;
   margin: 0;
 }
 
 @media (max-width: 768px) {
-  .url-heading {
+  .place__url-heading {
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -18,7 +19,7 @@
 }
 
 @media (max-width: 320px) {
-  .url-heading {
+  .place__url-heading {
     font-style: normal;
     font-weight: 400;
     font-size: 12px;

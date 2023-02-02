@@ -5,36 +5,25 @@
   gap: 16px;
   margin: 0 auto;
   margin-top: 92px;
-  overflow: hidden;
+  object-fit: cover;
 }
 
-@media (min-width: 768px) and (max-width: 1210px) {
+@media  (max-width: 1279px) {
   .photo {
     gap: 14px;
-    max-width: 1184px;
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0 auto;
-    margin-top: 92px;
-    overflow: hidden;
-    justify-content: center;
+    max-width: 928px;
   }
 }
 
-@media (min-width: 321px) and (max-width: 767px) {
+@media  (max-width: 1023px) {
   .photo {
     max-width: 720px;
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0 auto;
     margin-top: 88px;
-    overflow: hidden;
-    justify-content: center;
     gap: 16px;
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 767px) {
   .photo {
     max-width: 288px;
     gap: 12px;
